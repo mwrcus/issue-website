@@ -1,3 +1,7 @@
+#active{
+	color: white;
+}
+
 body {
 	background-color: black;
 	color: white;
@@ -147,4 +151,26 @@ img{
 	font-style: italic;
 	font-weight: bold;
 	color: orangered;
+}
+
+@media (max-width: 490px){
+	#header{
+		position: static;
+/*		height: 10vh;*/
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+	font-size: 130%;
+	margin-bottom: 5vh;
+	}
+	#header h1{
+		font-size: 215%;
+	}
+	body{
+		margin-top: 1vh;
+		font-size: 70%;
+	}
+
+
+
 }
